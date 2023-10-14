@@ -1,15 +1,33 @@
+ 
+/*
+Given an array of integers numsand an integer target.
 
-/*Google Interview Ques.
-	given an array of Length n. and sum.
-	write a function to confirm this array have at lest one pair
-	that sum of this pair is equal to given sum
-	
-	Ex: 1.  n = 4 , sum = 8
-		   	a[1,2,3,9]	No
-		2.  n = 4 , sum = 8
-			a[1,2,4,4]	Yes
-	that's it
-*/ 
+Write a function to confirm that this array have at lest one pair. Which pair of sum is equal to the target.
+
+If any pair of array sum is equal to target return true . Otherwise return false.
+
+ 
+
+Example 1:
+
+Given nums = [1, 2, 4, 4], target = 8,
+Because nums[2] + nums[3] = 4 + 4 = 8, return true .
+
+Example 2:
+
+Given nums = [1, 2, 3, 9], target = 8,
+return false.
+
+ 
+
+Constraints:
+
+2 <= nums.length <= 104
+-109 <= nums[i] <= 109
+-109 <= target <= 109
+Only one valid answer exists.
+Follow-up: Can you come up with an algorithm that is less than O(n2) or O(n*log(n)) time complexity? 
+*/
 		
 // Solution below...
 // solution Function
