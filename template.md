@@ -34,6 +34,7 @@
 #define dbg(x) {cerr << #x << " " << x << "\n";}
 #define input(x) {for(auto& i: x) cin>>i;}
 #define print(x) {for(auto i: x) cout<<i<< " "; cout << "\n";}
+#define find_str(s1,s2) (s1.find(s2) != string::npos)
 using namespace std;
 bool comp(const pair<int,int> &a,const pair<int,int> &b){
 	if(a.first == b.first) return a.second > b.second;
