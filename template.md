@@ -2,18 +2,19 @@
 //Update :01-Jul-24//
 						 /*বিসমিল্লাহির রাহমানির রাহিম*/
 #include<bits/stdc++.h>
-#define ci cin            /*:          :*/     //********
-#define co cout           /*:          :*/     //**********
-#define it int            /*:          :*/     //*       ***
-#define ll long long      /*::::::::::::*/     //*      **
-#define retur return      /*::::::::::::*/     //*******
-#define reak break        /*:          :*/     //*******
-#define cotiue continue   /*:          :*/     //*     ***
-#define strig string      /*:          :*/     //*       ***
-                          /**********************************/
+/*:          :*/     //********
+/*:          :*/     //**********
+/*:          :*/     //*       ***
+/*::::::::::::*/     //*      **
+/*::::::::::::*/     //*******
+/*:          :*/     //*******
+/*:          :*/     //*     ***
+/*:          :*/     //*       ***
+/**********************************/
 #define SpeedUpIO ios_base::sync_with_stdio(false); cin.tie(0);
 #define el "\n"
 #define endl el
+#define ll long long
 #define int ll
 #define vi vector<int> 
 #define vpii vector< pair <int,int> > 
@@ -40,6 +41,8 @@ bool comp(const pair<int,int> &a,const pair<int,int> &b){
 	if(a.first == b.first) return a.second > b.second;
 	return a.first>b.first;
 }
+
+
 void solve();
 main(){
 SpeedUpIO
