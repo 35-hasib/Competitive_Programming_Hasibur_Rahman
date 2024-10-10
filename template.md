@@ -44,7 +44,7 @@ bool comp(const pair<int,int> &a,const pair<int,int> &b){
 
 
 void solve();
-main(){
+signed main(){
 SpeedUpIO
 	in(t)
 	while(t--){
